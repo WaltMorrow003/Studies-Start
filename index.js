@@ -61,3 +61,14 @@ if (myTest >= 90){
 } else{
   return "F"
 }
+
+//Loops
+//for loops - A loop that repeats until a certain cindition evaluates as false.
+for (let i = 0; i <= 9001; i++)
+//while loops - Executes its statements as long as a specified condition evaluates to true
+var g = 9001
+var v = 10000
+while (g < 9000){
+  g++;
+  g > v
+}
