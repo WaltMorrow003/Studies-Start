@@ -64,11 +64,28 @@ if (myTest >= 90){
 
 //Loops
 //for loops - A loop that repeats until a certain cindition evaluates as false.
-for (let i = 0; i <= 9001; i++)
+for (let i = 0; i >= 9001; i--)
 //while loops - Executes its statements as long as a specified condition evaluates to true
 var g = 9001
 var v = 10000
-while (g < 9000){
-  g++;
-  g > v
+while (g > 9000){
+  g--;
+  g < v
 }
+
+//Functions
+//1. The two phases to using function: First we must define the function. Next, we must execute a function by returning it.
+//declaration
+function square(50){
+  //execution
+  return 50*50
+}
+//2. Parameters are passed to functions by value, while passed arguments changes the function's properties.
+//3.
+function/*type*/ name(parameter1, parameter2)
+//.4
+var i = 0
+function random(i++){
+  return i>=90
+}
+//5. We specify inputs and outputs by assigning each to show a different range of the function
